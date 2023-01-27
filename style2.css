@@ -1,0 +1,269 @@
+#navbar{
+    width: 1510px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#navbar #navs{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+#navs .menubar{
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    padding: 0px 25px;
+}
+#navs .logo{
+    width: 142px;
+    height: 30px;
+    opacity: 1;
+}
+#navs .searchico{
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    margin-left: 75px;
+}
+#navs .search{
+    top: 24px;
+    left: 350px;
+    height: 30px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-left: 20px;
+    position: absolute;
+    border: none;
+    font-size: 20px;
+}
+.notifi{
+    top: 28px;
+    left: 1294px;
+    width: 22px;
+    height: 21px;
+    background:0% 0% no-repeat padding-box;
+    opacity: 1;
+    float: right;
+    position: absolute;
+}
+.profile{
+    top: 18px;
+    left: 1368px;
+    width: 44px;
+    height: 44px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.profilename{
+    top: 15px;
+    left: 1424px;
+    width: 68px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.arrow{
+    top: 30px;
+    left: 1490px;
+    width: 20px;
+    height: 30px;
+    background:0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#sidebar{
+    /* width: 240px; */
+    height: 1279px;
+    /* margin: 20px 20px; */
+    display: flex;
+    left: 0;
+    position: absolute;
+}
+.subsidebar{
+    width: 210px;
+    height: 1279px;
+    left: 0;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+}
+#dash{
+    width: 183px;
+    height: 43px;
+    background: #FFF3F4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: flex;
+    padding-top: 10px;
+}
+#analy,#inbox,#history,#userdef,#maintain,#setting{
+    display: flex;
+    padding-top: 10px;
+}
+.sidebarimg{
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+}
+#sidebar .sidespans{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#sidebar #dashboard{
+    width: 1289px;
+    background-color: #fafafa;
+}
+.dashtitle{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.dashboxes{
+    display: flex;
+    margin: auto 30px;
+}
+.box{
+    width: 219px;
+    height: 116px;
+    display: flex;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+.box img{
+    width: 33px;
+    height: 33px;
+    margin:auto auto;
+}
+.box p{
+    margin:auto auto;
+    font-size: 20px;
+}
+.analy{
+    width: 1176px;
+    height: 450px;
+    margin: 30px 50px;
+    display: flex;
+}
+.graph{
+    width: 800px;
+    height: 423px;
+    background-color: #FFFFFF;
+}
+.graphtext .analytitle{
+    font-size: 25px;
+}
+.graphtext{
+    width: 802px;
+}
+.analytitle{
+    margin:10px 10px;
+    float: left;
+}
+.record{
+    float: right;
+    margin: 10px 10px;
+}
+.record span{
+    color: #C8242F;
+    text-decoration: underline;
+}
+.piechart{
+    width: 400px;
+    height: 423px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+}
+.piechart h3{
+    margin-left: 20px;
+}
+.piechart img{
+    margin: 10px 50px;
+}
+.piechart .para1{
+    display: flex;
+}
+.piechart .para2{
+    display: flex;
+    
+}
+.dot1{
+    height: 18px;
+    width: 18px;
+    background-color: #C8242F;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+.dot2{
+    height: 18px;
+    width: 18px;
+    background-color: #A2B86C;
+    display: inline-block;
+    border-radius: 50%;
+}
+.dot3{
+    height: 18px;
+    width: 18px;
+    background-color: #F16C20;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+.dot4{
+    height: 18px;
+    width: 18px;
+    background-color: #EBC844;
+    display: inline-block;
+    border-radius: 50%;
+}
+.piechart .dis1{
+    margin-left: 53px;
+    
+}
+.piechart .dis2{
+    margin-left: 174px;
+}
+.analystab{
+    width: 1175px;
+    height: 560px;
+    background: #FFFFFF;
+    margin-left: 50px;
+    column-gap: 400px;
+}
+tr{
+    margin-left: 100px;
+    border-bottom: 1px solid black;
+} 
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+.tableheader{
+    width: 1175px;
+}
+.tableheader h3{
+    float: left;
+    margin-left: 10px;
+}
+.tableheader h4{
+    float: right;
+    margin-right: 10px;
+    color: #C8242F;
+}
+.paid{
+    background-color: #EBFFEF;
+    color: #3CDD5F;
+}
+.failed{
+    background-color: #FFF5F5;
+    color: #FF4545;
+}
+
+
+
+
